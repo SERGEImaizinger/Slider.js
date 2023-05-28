@@ -1,9 +1,9 @@
 // Исходные данные по слайдеру (const)
 const INFO_TITLES = ["Rostov-on-Don  LCD admiral", "81 m2", "3.5 months"];
-["Sochi  Thieves", "105 m2" ," 4 months"];
+["Sochi  Thieves", "105 m2" ," 4 months"]
 
-["Rostov-on-Don Patriotic", "93 m2", "3 months"]
-;
+["Rostov-on-Don Patriotic", "93 m2", "3 months"];
+
 
 
 const sliderImages = document.querySelectorAll('.info__image'),
@@ -75,11 +75,15 @@ sliderDots.forEach((dot, index) => {
         sliderCount = index;
         rollSlider();
         thisSlide(sliderCount);
-        sliderText.textContent = INFO_TITLES[index];
+        
+        for (i = 0; i < sliderText.length; i++) {
+            sliderText[i].textContent = INFO_TITLES[index];
+        } 
+        
 
     })
 });
- 
+ console.log(sliderText)
 
 sliderTitles.forEach((linc, index) => {
     linc.addEventListener('click', () => {
