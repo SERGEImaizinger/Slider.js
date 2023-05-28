@@ -1,11 +1,7 @@
 // Исходные данные по слайдеру (const)
 const INFO_TITLES = ["Rostov-on-Don  LCD admiral", "81 m2", "3.5 months"];
 ["Sochi  Thieves", "105 m2" ," 4 months"]
-
 ["Rostov-on-Don Patriotic", "93 m2", "3 months"];
-
-
-
 const sliderImages = document.querySelectorAll('.info__image'),
     sliderLine = document.querySelector('.info__slider-img'),
     sliderDots = document.querySelectorAll('.info__dot'),
