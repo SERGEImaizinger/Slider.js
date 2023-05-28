@@ -1,7 +1,27 @@
 // Исходные данные по слайдеру (const)
-const INFO_TITLES = ["Rostov-on-Don  LCD admiral", "81 m2", "3.5 months"];
-["Sochi  Thieves", "105 m2" ," 4 months"]
-["Rostov-on-Don Patriotic", "93 m2", "3 months"];
+/*const INFO_TITLES =[
+{
+    city: "Rostov-on-Don <br> LCD admiral",
+    apartment_area: "81 m2",
+    repair_time: "3.5 months",
+    repair_cost: "Upon request",
+  },
+   {
+    city: "Sochi <br> Thieves",
+    apartment_area: "105 m2",
+    repair_time: "4 months",
+    repair_cost: "Upon request",
+  },
+   {
+    city: "Rostov-on-Don <br> Patriotic",
+    apartment_area: "93 m2",
+    repair_time: "3 months",
+    repair_cost: "Upon request",
+  }
+  
+] */
+
+
 const sliderImages = document.querySelectorAll('.info__image'),
     sliderLine = document.querySelector('.info__slider-img'),
     sliderDots = document.querySelectorAll('.info__dot'),
